@@ -335,22 +335,27 @@ py manage.py runserver
 > **Nota:** Reemplazar cada `[INSERTAR CAPTURA AQUI]` con la imagen correspondiente tomada durante la ejecución del laboratorio.
 
 ### Captura - Paso 1: Estructura del Proyecto
-![Paso 1](images/paso1_estructura.png)
+![Paso 1](images/Captura de pantalla 2026-09-04 160743.png)
 
 ### Captura - Paso 2: Modelo Exam
-![Paso 2](images/paso2_modelo_exam.png)
+![Paso 2](images/Captura de pantalla 2026-09-04 160822.png)
 
 ### Captura - Paso 3: Modelos Question y Choice
-![Paso 3](images/paso3_modelos.png)
+![Paso 3](images/Captura de pantalla 2026-09-04 160932.png)
+         (images/Captura de pantalla 2026-09-04 160951.png)
 
 ### Captura - Paso 4: Clases Meta
-![Paso 4](images/paso4_meta.png)
+![Paso 4](images/Captura de pantalla 2026-09-04 161021.png)
+        (images/Captura de pantalla 2026-09-04 161037.png)
+        (images/Captura de pantalla 2026-09-04 161050.png)
+
 
 ### Captura - Paso 5: Migraciones
-![Paso 5](images/paso5_migraciones.png)
+![Paso 5](images/Captura de pantalla 2026-09-04 161207.png)
 
 ### Captura - Paso 6: Formularios
-![Paso 6](images/paso6_formularios.png)
+![Paso 6](images/Captura de pantalla 2026-09-04 154752.png)
+(images/Captura de pantalla 2026-09-04 154758.png)
 
 ### Captura - Paso 7: Vistas
 - Listado de exámenes: ![Paso 7a](images/Captura de pantalla 2026-09-04 155332.png)
@@ -375,7 +380,6 @@ py manage.py runserver
 - Justificaciones modelo Exam: ![Paso 11a](images/Captura de pantalla 2026-09-04 160426.png)
 - Justificaciones modelo Question: ![Paso 11b](images/Captura de pantalla 2026-09-04 160446.png)
 - Justificaciones modelo Choice: ![Paso 11c](images/Captura de pantalla 2026-09-04 160455.png)
-
 ---
 
 ## Notas Técnicas
