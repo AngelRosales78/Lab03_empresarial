@@ -353,23 +353,28 @@ py manage.py runserver
 ![Paso 6](images/paso6_formularios.png)
 
 ### Captura - Paso 7: Vistas
-- Listado de exámenes: ![Paso 7a](images/paso7_listado.png)
-- Detalle de examen: ![Paso 7b](images/paso7_detalle.png)
-- Alta de pregunta: ![Paso 7c](images/paso7_alta.png)
+- Listado de exámenes: ![Paso 7a](images/Captura de pantalla 2026-09-04 155332.png)
+- Detalle de examen: ![Paso 7b](images/Captura de pantalla 2026-09-04 155513.png)
+- Alta de pregunta: ![Paso 7c](images/Captura de pantalla 2026-09-04 155332.png)
 
 ### Captura - Paso 8: URLs y Plantillas
 ![Paso 8](images/paso8_urls_templates.png)
 
 ### Captura - Paso 9: Admin y Datos Demo
-- Panel admin: ![Paso 9a](images/paso9_admin.png)
-- Inlines: ![Paso 9b](images/paso9_inlines.png)
+- Panel admin: ![Paso 9a](images/Captura de pantalla 2026-09-04 155513.png)
+- Inlines: ![Paso 9b](images/Captura de pantalla 2026-09-04 155525.png)
+- Examen: ![Paso 9c](images/Captura de pantalla 2026-09-04 155539.png)
+- Preguntas: ![Paso 9d](images/Captura de pantalla 2026-09-04 155553.png)
+- Opciones: ![Paso 9e](images/Captura de pantalla 2026-09-04 155658.png)
 
 ### Captura - Paso 10: Campo Score
-- Archivo de migración: ![Paso 10a](images/paso10_migracion.png)
-- Campo en admin: ![Paso 10b](images/paso10_score.png)
+- Archivo de migración: ![Paso 10a](images/Captura de pantalla 2026-09-04 155842.png)
+- Campo en admin: ![Paso 10b](images/Captura de pantalla 2026-09-04 155929.png)
 
 ### Captura - Paso 11: Justificaciones
-![Paso 11](images/paso11_justificaciones.png)
+- Justificaciones modelo Exam: ![Paso 11a](images/Captura de pantalla 2026-09-04 160426.png)
+- Justificaciones modelo Question: ![Paso 11b](images/Captura de pantalla 2026-09-04 160446.png)
+- Justificaciones modelo Choice: ![Paso 11c](images/Captura de pantalla 2026-09-04 160455.png)
 
 ---
 
