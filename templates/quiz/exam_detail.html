@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}{{ exam.title }} - Quiz App{% endblock %}
+
+{% block content %}
+<div class="container">
+    <a href="{% url 'quiz:exam_list' %}" class="back-link">&larr; Back to Exams</a>
+    <h2>{{ exam.title }}</h2>
+    <p style="margin-bottom: 1.5rem; color: #7f8c8d;">{{ exam.description }}</p>
+    <p style="margin-bottom: 1.5rem; font-size: 0.85rem; color: #95a5a6;">
+        Created: {{ exam.created_at|date:"F d, Y H:i" }}
+    </p>
+
+    <div style="margin-bottom: 1rem;">
+        <a href="{% url 'quiz:add_question' exam.pk %}" class="btn">Add Question</a>
+    </div>
+
+    {% if questions %}
+        {% for question in questions %}
+        <div class="question-block">
+            <h3>Question {{ forloop.counter }}: {{ question.text }}</h3>
+            <div class="choices-list">
+                {% for choice in question.choices.all %}
+                <div class="choice-item {% if choice.is_correct %}correct{% endif %}">
+                    {% if choice.is_correct %}<strong>&#10003; </strong>{% endif %}
+                    {{ choice.text }}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p>No questions added yet. Click "Add Question" to create one.</p>
+    {% endif %}
+</div>
+{% endblock %}

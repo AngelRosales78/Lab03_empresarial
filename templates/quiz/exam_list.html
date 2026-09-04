@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Exam List - Quiz App{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Exams</h2>
+    {% if exams %}
+        {% for exam in exams %}
+        <div class="exam-card">
+            <h3><a href="{% url 'quiz:exam_detail' exam.pk %}">{{ exam.title }}</a></h3>
+            <p class="date">Created: {{ exam.created_at|date:"F d, Y H:i" }}</p>
+            <p>{{ exam.description|truncatewords:30 }}</p>
+            <p style="margin-top: 0.5rem; font-size: 0.85rem; color: #7f8c8d;">
+                {{ exam.questions.count }} question{{ exam.questions.count|pluralize }}
+            </p>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p>No exams available yet.</p>
+    {% endif %}
+    <p style="margin-top: 1rem;">
+        <a href="/admin/" class="btn">Go to Admin</a>
+    </p>
+</div>
+{% endblock %}
