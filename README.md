@@ -335,42 +335,48 @@ py manage.py runserver
 > **Nota:** Reemplazar cada `[INSERTAR CAPTURA AQUI]` con la imagen correspondiente tomada durante la ejecución del laboratorio.
 
 ### Captura - Paso 1: Estructura del Proyecto
-![Paso 1](images/paso1_estructura.png)
+![Paso 1](images/Captura de pantalla 2026-09-04 160743.png)
 
 ### Captura - Paso 2: Modelo Exam
-![Paso 2](images/paso2_modelo_exam.png)
+![Paso 2](images/Captura de pantalla 2026-09-04 160822.png)
 
 ### Captura - Paso 3: Modelos Question y Choice
-![Paso 3](images/paso3_modelos.png)
+![Paso 3](images/Captura de pantalla 2026-09-04 160932.png)
+         (images/Captura de pantalla 2026-09-04 160951.png)
 
 ### Captura - Paso 4: Clases Meta
-![Paso 4](images/paso4_meta.png)
+![Paso 4](images/Captura de pantalla 2026-09-04 161021.png)
+        (images/Captura de pantalla 2026-09-04 161037.png)
+        (images/Captura de pantalla 2026-09-04 161050.png)
+
 
 ### Captura - Paso 5: Migraciones
-![Paso 5](images/paso5_migraciones.png)
+![Paso 5](images/Captura de pantalla 2026-09-04 161207.png)
 
 ### Captura - Paso 6: Formularios
-![Paso 6](images/paso6_formularios.png)
+![Paso 6](images/Captura de pantalla 2026-09-04 154752.png)
+(images/Captura de pantalla 2026-09-04 154758.png)
 
 ### Captura - Paso 7: Vistas
-- Listado de exámenes: ![Paso 7a](images/paso7_listado.png)
-- Detalle de examen: ![Paso 7b](images/paso7_detalle.png)
-- Alta de pregunta: ![Paso 7c](images/paso7_alta.png)
-
-### Captura - Paso 8: URLs y Plantillas
-![Paso 8](images/paso8_urls_templates.png)
+- Listado de exámenes: ![Paso 7a](images/Captura de pantalla 2026-09-04 155252.png)
+- Detalle de examen: ![Paso 7b](images/Captura de pantalla 2026-09-04 155311.png)
+- Alta de pregunta: ![Paso 7c](images/Captura de pantalla 2026-09-04 155332.png)
 
 ### Captura - Paso 9: Admin y Datos Demo
-- Panel admin: ![Paso 9a](images/paso9_admin.png)
-- Inlines: ![Paso 9b](images/paso9_inlines.png)
+- Panel admin: ![Paso 9a](images/Captura de pantalla 2026-09-04 155513.png)
+- Inlines: ![Paso 9b](images/Captura de pantalla 2026-09-04 155525.png)
+- (images/Captura de pantalla 2026-09-04 155539.png)
+- (images/Captura de pantalla 2026-09-04 155553.png)
+- (images/Captura de pantalla 2026-09-04 155658.png)
 
 ### Captura - Paso 10: Campo Score
-- Archivo de migración: ![Paso 10a](images/paso10_migracion.png)
-- Campo en admin: ![Paso 10b](images/paso10_score.png)
+- Archivo de migración: ![Paso 10a](images/Captura de pantalla 2026-09-04 155842.png)
+- Campo en admin: ![Paso 10b](images/Captura de pantalla 2026-09-04 155929.png)
 
 ### Captura - Paso 11: Justificaciones
-![Paso 11](images/paso11_justificaciones.png)
-
+![Paso 11](images/Captura de pantalla 2026-09-04 160426.png)
+(images/Captura de pantalla 2026-09-04 160446.png)
+(images/Captura de pantalla 2026-09-04 160455.png)
 ---
 
 ## Notas Técnicas
